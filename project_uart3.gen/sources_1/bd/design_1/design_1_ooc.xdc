@@ -7,5 +7,6 @@
 # of Vivado)
 ################################################################################
 create_clock -name sys_diff_clock_clk_p -period 5 [get_ports sys_diff_clock_clk_p]
+create_clock -name sys_diff_clock_0_clk_p -period 10 [get_ports sys_diff_clock_0_clk_p]
 
 ################################################################################

@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
 -- Date        : Thu Mar 18 15:54:57 2021
 -- Host        : DESKTOP-GN1E0PJ running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_mdm_1_0 -prefix
+--               design_1_mdm_1_0_ design_1_mdm_1_0_sim_netlist.vhdl
 -- Design      : design_1_mdm_1_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -38,8 +38,6 @@ entity design_1_mdm_1_0_MB_BSCANE2 is
     Dbg_TDO_0 : in STD_LOGIC;
     \Use_Serial_Unified_Completion.completion_status_reg[15]\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_mdm_1_0_MB_BSCANE2 : entity is "MB_BSCANE2";
 end design_1_mdm_1_0_MB_BSCANE2;
 
 architecture STRUCTURE of design_1_mdm_1_0_MB_BSCANE2 is
@@ -163,8 +161,6 @@ entity design_1_mdm_1_0_MB_BUFG is
     Dbg_Clk_0 : out STD_LOGIC;
     DRCK : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_mdm_1_0_MB_BUFG : entity is "MB_BUFG";
 end design_1_mdm_1_0_MB_BUFG;
 
 architecture STRUCTURE of design_1_mdm_1_0_MB_BUFG is
@@ -245,8 +241,6 @@ entity design_1_mdm_1_0_MB_FDC_1 is
     Dbg_Rst_0 : in STD_LOGIC;
     Debug_SYS_Rst : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_mdm_1_0_MB_FDC_1 : entity is "MB_FDC_1";
 end design_1_mdm_1_0_MB_FDC_1;
 
 architecture STRUCTURE of design_1_mdm_1_0_MB_FDC_1 is
@@ -838,8 +832,6 @@ entity design_1_mdm_1_0_MB_FDRE_1 is
     Dbg_Shift_0_3 : in STD_LOGIC;
     Dbg_Shift_0_4 : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_mdm_1_0_MB_FDRE_1 : entity is "MB_FDRE_1";
 end design_1_mdm_1_0_MB_FDRE_1;
 
 architecture STRUCTURE of design_1_mdm_1_0_MB_FDRE_1 is
@@ -885,8 +877,6 @@ entity design_1_mdm_1_0_MB_LUT1 is
     Ext_JTAG_TDI : out STD_LOGIC;
     I0 : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_mdm_1_0_MB_LUT1 : entity is "MB_LUT1";
 end design_1_mdm_1_0_MB_LUT1;
 
 architecture STRUCTURE of design_1_mdm_1_0_MB_LUT1 is
@@ -930,8 +920,6 @@ entity design_1_mdm_1_0_MB_SRL16E is
     shift_Count_reg : in STD_LOGIC_VECTOR ( 0 to 0 );
     config_TDO_2 : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_mdm_1_0_MB_SRL16E : entity is "MB_SRL16E";
 end design_1_mdm_1_0_MB_SRL16E;
 
 architecture STRUCTURE of design_1_mdm_1_0_MB_SRL16E is
@@ -1176,8 +1164,6 @@ entity design_1_mdm_1_0_JTAG_CONTROL is
     \Use_Serial_Unified_Completion._Data_Read_Status.count_reg[5]_1\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     \shift_Count_reg[0]_1\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_mdm_1_0_JTAG_CONTROL : entity is "JTAG_CONTROL";
 end design_1_mdm_1_0_JTAG_CONTROL;
 
 architecture STRUCTURE of design_1_mdm_1_0_JTAG_CONTROL is
@@ -2671,8 +2657,6 @@ entity design_1_mdm_1_0_MDM_Core is
     AR : in STD_LOGIC_VECTOR ( 0 to 0 );
     \^sel\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_mdm_1_0_MDM_Core : entity is "MDM_Core";
 end design_1_mdm_1_0_MDM_Core;
 
 architecture STRUCTURE of design_1_mdm_1_0_MDM_Core is
@@ -4830,8 +4814,6 @@ entity design_1_mdm_1_0_MDM is
   attribute C_USE_CROSS_TRIGGER of design_1_mdm_1_0_MDM : entity is 0;
   attribute C_USE_UART : integer;
   attribute C_USE_UART of design_1_mdm_1_0_MDM : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_mdm_1_0_MDM : entity is "MDM";
   attribute bscan_debug_core : string;
   attribute bscan_debug_core of design_1_mdm_1_0_MDM : entity is "FALSE";
   attribute dont_touch : string;

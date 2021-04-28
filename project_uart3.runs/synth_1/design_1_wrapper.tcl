@@ -88,7 +88,7 @@ set_property ip_output_repo d:/0FPGA/project_uart3/project_uart3.cache/ip [curre
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+read_verilog -library xil_defaultlib D:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
 add_files D:/0FPGA/project_uart3/project_uart3.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc]
 set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0_ooc_debug.xdc]
@@ -113,6 +113,28 @@ set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3
 set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_axi_uart16550_0_0/design_1_axi_uart16550_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_axi_uart16550_0_0/design_1_axi_uart16550_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_axi_uart16550_0_0/design_1_axi_uart16550_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_mig_7series_0_2/design_1_mig_7series_0_2/user_design/constraints/design_1_mig_7series_0_2.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_mig_7series_0_2/design_1_mig_7series_0_2/user_design/constraints/design_1_mig_7series_0_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_mig_7series_0_2/design_1_mig_7series_0_2_board.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_200M_0/design_1_rst_mig_7series_0_200M_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_200M_0/design_1_rst_mig_7series_0_200M_0.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_200M_0/design_1_rst_mig_7series_0_200M_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_ooc.xdc]
+set_property used_in_synthesis false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/design_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/data/mb_bootloop_le.elf]
 
@@ -125,8 +147,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/0FPGA/project_uart2/project_BRAM.srcs/constrs_1/new/top.xdc
-set_property used_in_implementation false [get_files D:/0FPGA/project_uart2/project_BRAM.srcs/constrs_1/new/top.xdc]
+read_xdc D:/0FPGA/project_uart3/top.xdc
+set_property used_in_implementation false [get_files D:/0FPGA/project_uart3/top.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

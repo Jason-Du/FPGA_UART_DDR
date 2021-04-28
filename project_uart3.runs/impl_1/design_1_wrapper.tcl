@@ -143,7 +143,7 @@ OPTRACE "add files" START { }
   add_files D:/0FPGA/project_uart3/project_uart3.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
-  read_xdc D:/0FPGA/project_uart2/project_BRAM.srcs/constrs_1/new/top.xdc
+  read_xdc D:/0FPGA/project_uart3/top.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

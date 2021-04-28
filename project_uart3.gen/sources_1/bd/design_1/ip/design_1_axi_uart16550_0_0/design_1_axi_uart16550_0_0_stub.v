@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
 // Date        : Thu Mar 18 15:56:14 2021
 // Host        : DESKTOP-GN1E0PJ running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               d:/0FPGA/project_uart3/project_uart3.gen/sources_1/bd/design_1/ip/design_1_axi_uart16550_0_0/design_1_axi_uart16550_0_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_axi_uart16550_0_0 -prefix
+//               design_1_axi_uart16550_0_0_ design_1_axi_uart16550_0_0_stub.v
 // Design      : design_1_axi_uart16550_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7vx485tffg1761-2
